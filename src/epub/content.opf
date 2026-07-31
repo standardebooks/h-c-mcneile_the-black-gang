@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/h-c-mcneile/the-black-gang</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-07-31T14:22:54Z</dc:date>
+		<meta property="dcterms:modified">2026-07-31T14:22:54Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -47,18 +47,15 @@
 		<meta id="collection-1" property="belongs-to-collection">Bulldog Drummond</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
-		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:description id="description">Soldier turned detective Bulldog Drummond and his team bust up a Bolshevik plot to take over Britain.</dc:description>
+		<dc:description id="description">A soldier-turned-detective and his team bust up a Bolshevik plot to take over Britain.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Having just survived the horrors of the First World War, Great Britain faces a new, more insidious threat. All across the country, secret groups of radicals are committing acts of sabotage and terror, with the ultimate goal of bringing about a Communist revolution in Britain. But these terrorists face a new terror of their own—their plans are being foiled, their meetings raided, and their members kidnapped—all by a mysterious band of men dressed in black. Who’s behind the so-called “Black Gang”? The terrorists have no idea, but neither does Scotland Yard or the newspapers. Could the leader possibly be war hero-turned-gentleman sleuth Hugh “Bulldog” Drummond?&lt;/p&gt;
-			&lt;p&gt;This, the second book in the &lt;a href="https://standardebooks.org/collections/bulldog-drummond"&gt;Bulldog Drummond series&lt;/a&gt;, continues Drummond’s battle with his archenemy, Carl Peterson, and Peterson’s femme fatale accomplice, Irma.&lt;/p&gt;
+			&lt;p&gt;Having just survived the horrors of the First World War, Great Britain faces a new, more insidious threat: all across the country, clandestine groups of radicals are committing acts of sabotage and terror, with the ultimate goal of bringing about a Communist revolution in Britain. But these terrorists face a new terror of their own own as their plans are foiled, their meetings raided, and their members kidnapped—all by a mysterious band of men dressed in black. Who’s behind the so-called “Black Gang”? The terrorists have no idea, and neither do Scotland Yard nor the media. Could the leader possibly be war hero-turned-gentleman sleuth &lt;a href="https://standardebooks.org/collections/bulldog-drummond"&gt;Hugh “Bulldog” Drummond&lt;/a&gt;, continuing his struggle against his archenemy, Carl Peterson?&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.net.au/ebooks08/0800501h.html</dc:source>
 		<dc:source>https://archive.org/details/bwb_P8-BIQ-641</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">76615</meta>
+		<meta property="schema:educationalLevel">73.07</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Black_Gang_(novel)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -86,6 +83,9 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
